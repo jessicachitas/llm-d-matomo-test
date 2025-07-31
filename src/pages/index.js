@@ -5,6 +5,7 @@ import Welcome from '@site/src/components/Welcome'
 import Install from '@site/src/components/Install'
 import Demo from '@site/src/components/Demo'
 import About from '@site/src/components/About'
+
 import Matomo from '@site/src/components/Matomo'
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
       title={`Welcome to the ${siteConfig.title} website!`}
       description="llm-d: a Kubernetes-native high-performance distributed LLM inference framework">
       <main>
-        <script src={Matomo} />
+        {/* <script src={Matomo} /> */}
         <Welcome />
         {/* <About /> */}
         <Install />
